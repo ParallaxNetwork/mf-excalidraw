@@ -2,7 +2,7 @@ import autoprefixer = require("autoprefixer");
 import TerserPlugin = require("terser-webpack-plugin");
 export const mode: string;
 export const entry: {
-    "excalidraw.production.min": string;
+    "excalidraw.development": string;
 };
 export namespace output {
     const path: string;
